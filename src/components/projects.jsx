@@ -36,6 +36,7 @@ import colors from "../colors.js";
 import { useNavigate } from "react-router-dom"; // Import useNavigate hook
 
 // Updated projectData with images
+// Updated projectData with external links for specific projects
 const projectData = [
   {
     id: 1,
@@ -78,7 +79,7 @@ const projectData = [
       "Developed a user-friendly website designed to simplify pantry management by allowing clients to input their details of their grocery purchases in cloud storage for access anywhere.",
     image: PantryPal,
     tags: ["JavaScript", "CSS", "HTML"],
-    route: "/projectpantrypal",
+    externalLink: "https://github.com/MenHackers/PantryPal", 
     margin: "-20px",
   },
   {
@@ -100,7 +101,7 @@ const projectData = [
       "Engineered a modern pacemaker, using Simulink code logic with a user-friendly GUI, and using an NXP FRDM K64F for serial communication.",
     image: Pacemaker,
     tags: ["Python", "Simulink", "Serial Communication"],
-    route: "/projectpacemaker",
+    externalLink: "https://github.com/brianmano/Pacemaker_Project", 
     margin: "-20px",
   },
 ];
@@ -110,8 +111,12 @@ const Projects = () => {
   const navigate = useNavigate();
   
   const handleProjectSelect = (project) => {
-    setSelectedProject(project);
-    navigate(project.route);
+    if (project.externalLink) {
+      window.open(project.externalLink, "_blank"); // Open external link in a new tab
+    } else {
+      setSelectedProject(project);
+      navigate(project.route);
+    }
   };
 
   const titleFontSize = useBreakpointValue({ base: '16px', md: '16px', lg: '20px' });
@@ -217,3 +222,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
