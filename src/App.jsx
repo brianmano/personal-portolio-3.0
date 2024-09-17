@@ -3,12 +3,6 @@ import React from 'react';
 import HeroPage from './pages/heropage';
 import MainPageBrian from './pages/mainpagebrian';
 import MainPageVarun from './pages/mainpagevarun';
-import Project_RearTub_Page from './pages/projectspages/projectreartub';
-import Project_Telemetry_Page from './pages/projectspages/projecttelemetry';
-import Project_CPU_Page from './pages/projectspages/projectCPU';
-import Project_PantryPal_Page from './pages/projectspages/projectpantrypal';
-import Project_Skyjack_Page from './pages/projectspages/projectSkyjack';
-import Project_Pacemaker_Page from './pages/projectspages/projectpacemaker';
 import { ChakraProvider } from '@chakra-ui/react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
@@ -30,7 +24,6 @@ const App = () => {
         <Routes>
           {/* <Route path="/" element={<HeroPage />} /> */}
           <Route key={Router.Route} path="/" element={<MainPageBrian />} />
-          <Route path="/mainpagevarun" element={<MainPageVarun />} />
           <Route path="/projectreartub" element={
             <ProjectPage
             projectName="McMaster EcoCAR Rear Tub and Cooling System Project"
@@ -52,14 +45,12 @@ const App = () => {
             projectTimeline="September 2023"
             pdfLink={cpupdf}
             />} />
-          <Route path="/projectpantrypal" element={<Project_PantryPal_Page />} />
           <Route path="/projectskyjack" element={<ProjectPage
             projectName="SkyJack Paint NCR Shelf Project"
             projectDescription="Designed and engineered a new part shelf for the storage of Paint NCRs, significantly improving ergonomics, safety, and cost migigation of damaged parts."
             projectTimeline="May 2023 - August 2023"
             pdfLink={skyjackpdf}
             />} />
-          <Route path="/projectpacemaker" element={<Project_Pacemaker_Page />} />
         </Routes>
       </Router>
       </AnimatePresence>
