@@ -1,0 +1,156 @@
+
+.h1 {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.h10 {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.h1i {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.h2 {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.h3 {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.accordionItem {
+  border-top: none;
+}
+
+@keyframes swipeOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.swipe-out {
+  animation: swipeOut 1s forwards;
+}
+
+@keyframes swipeIn {
+  from {
+    transform: translateY(30%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.swipe-in {
+  animation: swipeIn 1s ease-out;
+}
+
+/* Apply the animation to child elements with a delay */
+.staggered-fade-in > * {
+  opacity: 0;
+  animation: swipeIn 1.5s cubic-bezier(.38,.82,.68,1.02) forwards;
+}
+
+/* Create staggered effect */
+.staggered-fade-in > *:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.staggered-fade-in > *:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.staggered-fade-in > *:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.staggered-fade-in > *:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.staggered-fade-in > *:nth-child(5) {
+  animation-delay: .5s;
+}
+.staggered-fade-in > *:nth-child(6) {
+  animation-delay: .6s;
+}
+/* Continue adding delay for additional child elements as needed */
+
+
+.carousel-item {
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.carousel-item:hover {
+  transform: scale(1.05); /* Increase size by 10% */
+}
+
+
+/* Custom scrollbar for Webkit browsers (Chrome, Safari) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #191919; /* Color of the track (part the scrollbar slides within) */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #4e4e4e; /* Color of the draggable part of the scrollbar */
+  border-radius: 10px; /* Roundness of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color when hovering over the scrollbar */
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag-item {
+  margin: 2px; /* Adjust as needed */
+  max-width: calc(100% / 6 - 4px); /* Divide width by 6 tags and subtract margin */
+}
+
+/* Apply a grey background when hovering over the carousel item */
+.carousel-item-content {
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Maintain size while changing background color */
+.carousel-item:hover .carousel-item-content {
+  background-color: #303030; /* Grey color with some transparency */
+}
+
+/* Rotate the arrow 45 degrees when hovering over the carousel item */
+.carousel-item:hover .icon-rotate {
+  transform: rotate(-45deg); /* Rotate icon 45 degrees */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for rotation */
+}
+
+/* Apply a pointer cursor to indicate clickable item */
+.carousel-item {
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
