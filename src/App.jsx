@@ -5,11 +5,11 @@ import { ChakraProvider } from '@chakra-ui/react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import ProjectPage from './components/projectpage';
-
 import scalarpdf from './pages/projectspages/Portfolio-Report-Scalar.pdf';
 import rearTubpdf from './pages/projectspages/Portfolio-Report-Ecocar.pdf';
 import cpupdf from './pages/projectspages/Portfolio-Report-CPU.pdf';
 import skyjackpdf from './pages/projectspages/Portfolio-Report-Skyjack.pdf';
+import './App.css';
 
 
 
