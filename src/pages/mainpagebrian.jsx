@@ -50,8 +50,6 @@ const MainPageBrian = () => {
     }, 800);
   };
 
-
-
   return (
     <ChakraProvider>
       <Box width="100%" display="flex" justifyContent="center" alignItems="center">

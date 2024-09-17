@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: rgba(16,16,16,255);
-    background-size: 600% 600%; 
+    background-size: 100% 100%; 
 }
 
 ul.container li.card {
@@ -38,7 +38,7 @@ ul.container li.card {
 }
 
 .curve .background {
-    background-color: black;
+    background-color: rgba(16,16,16,255);
     transition: opacity 0s linear 0.1s;
 }
 
@@ -46,7 +46,7 @@ ul.container li.card {
     position: absolute;
     left: 50%;
     top: 40%;
-    color: white;
+    color: rgba(16,16,16,255);
     font-size: 46px;
     z-index: 3;
     transform: translateX(-50%);
