@@ -1,8 +1,6 @@
 // @ts-nocheck
 import React from 'react';
-import HeroPage from './pages/heropage';
 import MainPageBrian from './pages/mainpagebrian';
-import MainPageVarun from './pages/mainpagevarun';
 import { ChakraProvider } from '@chakra-ui/react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
