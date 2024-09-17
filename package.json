@@ -22,7 +22,6 @@
     "react-router-dom": "^6.26.2",
     "react-slick": "^0.30.2",
     "react-spring": "^9.7.4",
-    "react-stacked-carousel": "^1.1.4",
     "react-type-animation": "^3.2.0",
     "react-use": "^17.5.1",
     "slick-carousel": "^1.8.1"
