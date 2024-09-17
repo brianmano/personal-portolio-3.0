@@ -12,7 +12,7 @@ import {
   Wrap,
   WrapItem
 } from '@chakra-ui/react';
-import '../app.css';
+import '../App.css';
 import colors from '../colors.js';
 
 // Texts library with icons (using boxicon class names)

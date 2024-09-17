@@ -3,7 +3,7 @@ import {
   ChakraProvider, Box, VStack, Text, Grid, GridItem, Flex, useBreakpointValue,
   HStack
 } from '@chakra-ui/react';
-import '../app.css';
+import '../App.css';
 import colors from '../colors.js';
 
 const resume = "https://drive.google.com/file/d/1q6sITnvTjJQpHgGuAHlJx_U3ySFROxPy/view?usp=sharing";

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChakraProvider, Box, VStack, Text, Center, Wrap, WrapItem, Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, IconButton, useBreakpointValue } from '@chakra-ui/react';
 import Slider from 'react-slick';
-import '../app.css'; // Ensure this imports slick-carousel CSS
+import '../App.css'; // Ensure this imports slick-carousel CSS
 import colors from '../colors.js';
 
 // Define constants for experiences directly in the file

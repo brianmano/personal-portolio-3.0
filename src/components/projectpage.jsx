@@ -13,7 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 import colors from "../colors";
-import "../app.css";
+import "../App.css";
 import { CloseIcon } from "@chakra-ui/icons";
 
 const ProjectPage = ({

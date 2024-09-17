@@ -10,7 +10,7 @@ import {
   Center,
 } from "@chakra-ui/react";
 import { ArrowRightIcon } from "@chakra-ui/icons";
-import "../app.css";
+import "../App.css";
 import Experience from "../components/experience";
 import Projects from "../components/projects";
 import ReachOut from "../components/reachout";

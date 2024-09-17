@@ -4,7 +4,7 @@ import {
   IconButton, Tag, TagLabel, TagLeftIcon,
   Flex
 } from '@chakra-ui/react';
-import '../app.css';
+import '../App.css';
 import brian from '../assets/brian.png';
 import colors from '../colors.js';
 import { TypeAnimation } from 'react-type-animation';

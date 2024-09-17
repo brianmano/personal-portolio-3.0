@@ -16,7 +16,7 @@ import {
   TagLabel,
   useBreakpointValue
 } from "@chakra-ui/react";
-import "../app.css";
+import "../App.css";
 import {
   Project_Telemetry,
   Project_RearTub,
