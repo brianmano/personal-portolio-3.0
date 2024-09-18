@@ -12,7 +12,7 @@ import { color } from 'framer-motion';
 import { SunIcon } from '@chakra-ui/icons';
 import "boxicons";
 
-const resume = "https://drive.google.com/file/d/1SvNtR9HcFG_XxBhmjAzTxweWgWNp4v2S/view?usp=sharing";
+const resume = "https://drive.google.com/file/d/1r0pdq158gwXKicMQQvb3Fr4XwoXOXcBv/view?usp=sharing";
 const emailLink = "mailto:brian.manomaisupat@gmail.com";
 const linkedin = "https://www.linkedin.com/in/brian-mano/";
 const github = "https://github.com/brianmano";
