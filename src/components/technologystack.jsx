@@ -41,6 +41,7 @@ const toolsLibrary = [
   { name: "Kafka", icon: 'bx bx-data' },
   { name: "Azure", icon: 'bx bx-data' },
   { name: "InfluxDB", icon: 'bx bx-data' },
+  { name: "Docker", icon: 'bx bx-data' },
   { name: "Git", icon: 'bx bx-git-commit' },
   { name: "Linux", icon: 'bx bx-terminal' },
   { name: "CANBus", icon: 'bx bx-car' },

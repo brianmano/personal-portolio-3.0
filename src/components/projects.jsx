@@ -42,10 +42,10 @@ const projectData = [
     id: 1,
     name: "Scalar Performance Race Telemetry Project",
     description:
-      "Engineered and developed the software and hardware for a scalable real-time race telemetry system, including a high performing data pipeline (<50ms), cloud storage, custom wiring harness (CANBus), and customizable dashboard.",
+      "Engineered and developed the software and hardware for a scalable real-time race telemetry system, including a high performing streaming processing data pipeline with containerized apps (<50ms), cloud storage, custom wiring harness (CANBus), and customizable dashboard.",
     component: <Project_Telemetry />,
     image: SCR1,
-    tags: ["Apache Kafka", "CANBus", "Azure (SQL Database)", "InfluxDB", "Python", "JavaScript", "HTML", "CSS", "Raspberry Pi"],
+    tags: ["Kafka", "CANBus", "Azure (SQL Database)", "Docker", "MQTT", "InfluxDB", "Python", "JavaScript", "HTML", "CSS", "Raspberry Pi"],
     route: "/projecttelemetry",
     margin: "0px",
   },
