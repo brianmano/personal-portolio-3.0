@@ -11,8 +11,6 @@ import cpupdf from './pages/projectspages/Portfolio-Report-CPU.pdf';
 import skyjackpdf from './pages/projectspages/Portfolio-Report-Skyjack.pdf';
 import './App.css';
 
-
-
 const App = () => {
 
   return (
