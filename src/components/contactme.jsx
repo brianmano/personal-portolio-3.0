@@ -32,7 +32,7 @@ const ContactMe = () => {
         <GridItem rowSpan={{ base: 1, md: 1, lg: 1 }} colSpan={{ base: 1, md: 4, lg: 1 }} >
           <HStack>
           <Text className="h1" fontSize={titleFontSize} color={colors.primarywhite} >
-            Lets Connect 
+            Contact Me 
           </Text>
           <box-icon color={colors.purple} size="md" name='message-square-dots' animation="tada-hover"></box-icon>
           </HStack>
@@ -69,7 +69,7 @@ const ContactMe = () => {
                       textColor: "white" // Glow effect on text hover
                     }}
                   >
-                    brian.manomaisupat@gmail.com
+                    c3irvine@uwaterloo.ca
                   </Text>
                 </Box>
               </Box>
@@ -106,7 +106,7 @@ const ContactMe = () => {
                       textColor: "white" // Glow effect on text hover
                     }}
                   >
-                    +1 (289)-788-9659
+                    +1 (905)-541-2764
                   </Text>
                 </Box>
               </Box>
@@ -141,7 +141,7 @@ const ContactMe = () => {
                       textColor: "white" // Glow effect on text hover
                     }}
                   >
-                    brian-mano
+                    connor-john-irvine
                   </Text>
                   </Box>
                 </Box>
@@ -176,7 +176,7 @@ const ContactMe = () => {
                       textColor: "white" // Glow effect on text hover
                     }}
                   >
-                    brianmano
+                    ConnorIrvine
                   </Text>
                   </Box>
                 </Box>

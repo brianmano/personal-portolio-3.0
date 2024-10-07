@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from 'react';
-import MainPageBrian from './pages/mainpagebrian';
+import MainPageConnor from './pages/mainpageconnor';
 import { ChakraProvider } from '@chakra-ui/react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
@@ -19,7 +19,7 @@ const App = () => {
       <Router>
         <Routes>
           {/* <Route path="/" element={<HeroPage />} /> */}
-          <Route key={Router.Route} path="/" element={<MainPageBrian />} />
+          <Route key={Router.Route} path="/" element={<MainPageConnor />} />
           <Route path="/projectreartub" element={
             <ProjectPage
             projectName="McMaster EcoCAR Rear Tub and Cooling System Project"

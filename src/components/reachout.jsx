@@ -12,10 +12,10 @@ import { color } from 'framer-motion';
 import { SunIcon } from '@chakra-ui/icons';
 import "boxicons";
 
-const resume = "https://drive.google.com/file/d/1OmcYk4xkg2GHJivPdBtPf-zthZGo2VKs/view?usp=sharing";
-const emailLink = "mailto:brian.manomaisupat@gmail.com";
-const linkedin = "https://www.linkedin.com/in/brian-mano/";
-const github = "https://github.com/brianmano";
+const resume = "https://drive.google.com/file/d/1f2vHwPw8q6RH-RZV2YdKJHipimYksrXi/view?usp=sharing";
+const emailLink = "mailto:c3irvine@uwaterloo.ca";
+const linkedin = "https://www.linkedin.com/in/connor-john-irvine/";
+const github = "https://github.com/ConnorIrvine";
 
 const ReachOut = () => {
   // Responsive font size and spacing values
@@ -58,12 +58,12 @@ const ReachOut = () => {
             <VStack h="100%" w="100%" bg={colors.secondaryblack} borderRadius={15} overflow="hidden" p="3" align="left" spacing={1}>
                 <Tag backgroundColor={colors.tertiaryblack} textColor={colors.primarywhite} w="55%">
                   <TagLeftIcon as={SunIcon} textColor="orange"/>
-                  <TagLabel fontSize = {internFontSize}>Looking for Summer 2025 Interships</TagLabel>
+                  <TagLabel fontSize = {internFontSize}>Looking for Winter and Summer 2025 Interships</TagLabel>
                 </Tag>
 
 
               <Text className='h1' fontSize={titleFontSize} color={colors.primarywhite}>
-                Brian Manomaisupat
+                Connor Irvine
               </Text>
               <HStack spacing={2} align="center">
                 <Text className="h3" fontSize={buttonFontSize} color={colors.secondarywhite}>
@@ -71,15 +71,11 @@ const ReachOut = () => {
                 </Text>
                 <TypeAnimation
                   sequence={[
-                    'Race Telemetry Developer',
+                    'Backend Developer',
                     3000,
-                    'Software Developer',
+                    'Web Application Developer',
                     3000,
-                    'Pitcrew Member',
-                    3000,
-                    'System Design and Integration Team Member',
-                    3000,
-                    'Vehicle Dynamics Team Member',
+                    'Biomedical Engineering Student',
                     3000,
                   ]}
                   wrapper="span"
@@ -97,15 +93,15 @@ const ReachOut = () => {
           <HStack spacing={spacing} p={spacing} flexWrap="wrap">  
             <Tag p = {2} backgroundColor={colors.quinaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
                 <box-icon color={colors.purple} name='book-alt' type='solid' size="sm" ></box-icon>
-                <TagLabel>Bachelors of Engineering</TagLabel>
+                <TagLabel>Bachelors of Applied Science</TagLabel>
             </Tag>
             <Tag p = {2} backgroundColor={colors.quinaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
                 <box-icon color={colors.purple} type='solid' name='book-alt'></box-icon>
-                <TagLabel>Mechatronics and Biomedical Engineer</TagLabel>
+                <TagLabel>Biomedical Engineer</TagLabel>
             </Tag>
             <Tag p = {2} backgroundColor={colors.quinaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
                 <box-icon color={colors.purple} type='solid' name='school'></box-icon>
-                <TagLabel>McMaster University</TagLabel>
+                <TagLabel>University of Waterloo</TagLabel>
             </Tag>
             <Tag p = {2} backgroundColor={colors.quinaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
                 <box-icon color={colors.purple} name='current-location'></box-icon>

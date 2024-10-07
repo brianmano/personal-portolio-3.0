@@ -17,34 +17,25 @@ import colors from '../colors.js';
 
 // Texts library with icons (using boxicon class names)
 const techLibrary = [
-  { name: "C", icon: 'bx bxl-c-plus-plus' },
+  { name: "C#", icon: 'bx bxl-c-plus-plus' },
   { name: "C++", icon: 'bx bxl-c-plus-plus' },
   { name: "Python", icon: 'bx bxl-css3' },
   { name: "CSS", icon: 'bx bxl-css3' },
   { name: "HTML5", icon: 'bx bxl-html5' },
   { name: "JavaScript", icon: 'bx bxl-javascript' },
-  { name: "VBScript", icon: 'bx bxl-check-square' },
   { name: "SQL", icon: 'bx bxl-check-square' },
-  { name: "Matlab", icon: 'bx bxl-check-square' },
+  { name: "MATLAB", icon: 'bx bxl-check-square' },
 ];
 const cadLibrary = [
-  { name: "Seimens NX", icon: 'bx bxs-check-square' },
   { name: "SolidWorks", icon: 'bx bxs-check-square' },
-  { name: "Fusion360", icon: 'bx bxs-check-square' },
-  { name: "Inventor", icon: 'bx bxs-check-square'},
-  { name: "AutoCAD", icon: 'bx bxs-check-square' },
-  { name: "Altair Hypermesh", icon: 'bx bxs-check-square' },
-  { name: "Altair MotionSolve", icon: 'bx bxs-check-square'},
+  { name: "OnShape", icon: 'bx bxs-check-square' },
 ];
 const toolsLibrary = [
   { name: "AWS", icon: 'bx bx-data' },
-  { name: "Kafka", icon: 'bx bx-data' },
   { name: "Azure", icon: 'bx bx-data' },
-  { name: "InfluxDB", icon: 'bx bx-data' },
+  { name: "Postman", icon: 'bx bx-data' },
   { name: "Docker", icon: 'bx bx-data' },
   { name: "Git", icon: 'bx bx-git-commit' },
-  { name: "Linux", icon: 'bx bx-terminal' },
-  { name: "CANBus", icon: 'bx bx-car' },
 ];
 
 // Settings for react-slick
