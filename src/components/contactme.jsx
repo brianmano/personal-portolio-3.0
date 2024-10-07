@@ -7,9 +7,9 @@ import '../App.css';
 import colors from '../colors.js';
 
 const resume = "https://drive.google.com/file/d/1q6sITnvTjJQpHgGuAHlJx_U3ySFROxPy/view?usp=sharing";
-const emailLink = "mailto:brian.manomaisupat@gmail.com";
-const linkedin = "https://www.linkedin.com/in/brian-mano/";
-const github = "https://github.com/brianmano";
+const emailLink = "mailto:c3irvine@uwaterloo.ca";
+const linkedin = "https://www.linkedin.com/in/connor-john-irvine/";
+const github = "https://github.com/ConnorIrvine";
 
 const ContactMe = () => {
 
