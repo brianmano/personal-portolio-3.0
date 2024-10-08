@@ -58,7 +58,7 @@ const ProjectPage = ({
           <Text
             className="h1"
             fontSize={{ base: "30", md: "40px" }}
-            color={colors.primarywhite}
+            color={colors.blue}
             textAlign="left"
             alignSelf="flex-start" // Align to the top left
             width="200vw"

@@ -102,7 +102,7 @@ const TechnologyStack = () => {
                   >
                     <HStack align="center" justify="center">
                       {/* Icon as Box with className */}
-                      <Box as="i" className={item.icon} size="24px" color={colors.purple} /> 
+                      <Box as="i" className={item.icon} size="24px" color={colors.blue} /> 
                       <Text
                         className="h2"
                         fontSize={textFontSize}
@@ -138,7 +138,7 @@ const TechnologyStack = () => {
                   >
                     <HStack align="center" justify="center">
                       {/* Icon as Box with className */}
-                      <Box as="i" className={item.icon} size="24px" color={colors.purple} /> 
+                      <Box as="i" className={item.icon} size="24px" color={colors.blue} /> 
                       <Text
                         className="h2"
                         fontSize={textFontSize}
@@ -174,7 +174,7 @@ const TechnologyStack = () => {
                   >
                     <HStack align="center" justify="center">
                       {/* Icon as Box with className */}
-                      <Box as="i" className={item.icon} size={textFontSize} color={colors.purple} /> 
+                      <Box as="i" className={item.icon} size={textFontSize} color={colors.blue} /> 
                       <Text
                         className="h2"
                         fontSize={textFontSize}

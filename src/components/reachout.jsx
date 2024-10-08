@@ -44,7 +44,7 @@ const ReachOut = () => {
         transition="all 0.3s ease" 
       >
         <GridItem rowSpan={{ base: 1, md: 1 }} colSpan={{ base: 1, md: 1 }}>
-            <Box h = {imageSizeH} w = {imageSizeW  + 10} bg={colors.purple} borderRadius={15} overflow="hidden">
+            <Box h = {imageSizeH} w = {imageSizeW  + 10} bg={colors.blue} borderRadius={15} overflow="hidden">
               <Image
                 src={brian}
                 alt="brian"
@@ -81,7 +81,7 @@ const ReachOut = () => {
                   wrapper="span"
                   speed={25}
                   className="h1"
-                  style={{ fontSize: {textFontSize}, color: '#f58229', display: 'inline-block' }}
+                  style={{ fontSize: {textFontSize}, color: '#1dc5b4', display: 'inline-block' }}
                   repeat={Infinity}
                 />
               </HStack>
@@ -92,19 +92,19 @@ const ReachOut = () => {
         <GridItem h="100%" w="100%" rowSpan={{ base: 2, md: 7 }} colSpan={{ base: 1, md: 4 }} backgroundColor={colors.tertiaryblack} borderRadius={10}>
           <HStack spacing={spacing} p={spacing} flexWrap="wrap">  
             <Tag p = {2} backgroundColor={colors.quinaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
-                <box-icon color={colors.purple} name='book-alt' type='solid' size="sm" ></box-icon>
+                <box-icon color={colors.blue} name='book-alt' type='solid' size="sm" ></box-icon>
                 <TagLabel>Bachelors of Applied Science</TagLabel>
             </Tag>
             <Tag p = {2} backgroundColor={colors.quinaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
-                <box-icon color={colors.purple} type='solid' name='book-alt'></box-icon>
+                <box-icon color={colors.blue} type='solid' name='book-alt'></box-icon>
                 <TagLabel>Biomedical Engineering</TagLabel>
             </Tag>
             <Tag p = {2} backgroundColor={colors.quinaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
-                <box-icon color={colors.purple} type='solid' name='school'></box-icon>
+                <box-icon color={colors.blue} type='solid' name='school'></box-icon>
                 <TagLabel>University of Waterloo</TagLabel>
             </Tag>
             <Tag p = {2} backgroundColor={colors.quinaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
-                <box-icon color={colors.purple} name='current-location'></box-icon>
+                <box-icon color={colors.blue} name='current-location'></box-icon>
                 <TagLabel>Hamilton, ON</TagLabel>
             </Tag>
           </HStack>
@@ -128,7 +128,7 @@ const ReachOut = () => {
                   backgroundColor: colors.quinaryblack,
                 }}
               >
-                <box-icon color={colors.purple} type='solid' name='file-doc'></box-icon>
+                <box-icon color={colors.blue} type='solid' name='file-doc'></box-icon>
                 <Text
                   ml="2"
                   fontSize={buttonFontSize}
@@ -158,7 +158,7 @@ const ReachOut = () => {
                   backgroundColor: colors.quinaryblack,
                 }}
               >
-                <box-icon color={colors.purple} type='logo' name='linkedin-square'></box-icon>
+                <box-icon color={colors.blue} type='logo' name='linkedin-square'></box-icon>
                 <Text
                   ml="2"
                   fontSize={buttonFontSize}
@@ -188,7 +188,7 @@ const ReachOut = () => {
                   backgroundColor: colors.quinaryblack,
                 }}
               >
-                <box-icon color={colors.purple} type='solid' name='envelope'></box-icon>
+                <box-icon color={colors.blue} type='solid' name='envelope'></box-icon>
                 <Text
                   ml="2"
                   fontSize={buttonFontSize}
@@ -218,7 +218,7 @@ const ReachOut = () => {
                   backgroundColor: colors.quinaryblack,
                 }}
               >
-                <box-icon color={colors.purple} type='logo' name='github'></box-icon>
+                <box-icon color={colors.blue} type='logo' name='github'></box-icon>
                 <Text
                   ml="2"
                   fontSize={buttonFontSize}

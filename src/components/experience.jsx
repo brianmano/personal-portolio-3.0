@@ -105,7 +105,7 @@ const VerticalCarousel = ({ items }) => {
                                 <box-icon
                                   name="right-arrow-alt"
                                   size="sm"
-                                  color={colors.purple}
+                                  color={colors.blue}
                                 ></box-icon>
                               }
                               transition="transform 0.3s ease-in-out"

@@ -39,7 +39,7 @@ const projectData = [
       "Developed a motorized prototype to quantify recovery progress in stroke patients with hemiparesis, writing all Arduino code for motor control and force measurement, and leading the 3D printing process to ensure precise part tolerances.",
     component: <Project_Rehabilitation />,
     image: Rehabilitation,
-    tags: ["Kafka", "CANBus", "Azure (SQL Database)", "Docker", "MQTT", "InfluxDB", "Python", "JavaScript", "HTML", "CSS", "Raspberry Pi"],
+    tags: ["SolidWorks", "C++", "PrusaSlicer", "LTSpice", "Arduino"],
     route: "/projectrehabilitation",
     margin: "0px",
   },
@@ -50,7 +50,7 @@ const projectData = [
       "Prototyped an EMG-controlled prosthesis capable of gripping and turning a steering wheel, leading the 3D-printed mechanical design while conducting FEA to ensure stress resilience, meeting peer-reviewed standards.",
     component: <Project_EMG />,
     image: EMGProsthesis,
-    tags: ["SolidWorks", "C++", "PrusaSlicer", "LTSpice", "Arduino IDE"],
+    tags: ["SolidWorks", "C++", "PrusaSlicer", "LTSpice", "Arduino"],
     route: "/projectemg",
     margin: "-20px",
   },
@@ -147,7 +147,7 @@ const Projects = () => {
                     <Tag
                       key={index}
                       textColor={colors.secondaryblack}
-                      backgroundColor={colors.purple}
+                      backgroundColor={colors.blue}
                       fontSize={tagFontSize}
                       className="tag-item"
                     >
@@ -170,7 +170,7 @@ const Projects = () => {
                 <box-icon
                   name="right-arrow-alt"
                   size="md"
-                  color={colors.purple}
+                  color={colors.blue}
                 ></box-icon>
               }
               className="icon-rotate"

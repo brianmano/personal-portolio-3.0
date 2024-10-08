@@ -34,7 +34,7 @@ const ContactMe = () => {
           <Text className="h1" fontSize={titleFontSize} color={colors.primarywhite} >
             Contact Me 
           </Text>
-          <box-icon color={colors.purple} size="md" name='message-square-dots' animation="tada-hover"></box-icon>
+          <box-icon color={colors.blue} size="md" name='message-square-dots' animation="tada-hover"></box-icon>
           </HStack>
         </GridItem>
         <GridItem justifySelf="left" rowSpan={{ base: 1, md: 1, lg: 1 }} colSpan={{ base: 1, md: 1, lg: 2 }} >
@@ -58,7 +58,7 @@ const ContactMe = () => {
                   alignItems="center"
                   justifyContent="center"
                 >
-                  <box-icon color={colors.purple} type='solid' name='envelope'></box-icon>
+                  <box-icon color={colors.blue} type='solid' name='envelope'></box-icon>
                   <Text
                     ml="2"
                     fontSize={smallFontSize}
@@ -95,7 +95,7 @@ const ContactMe = () => {
                   alignItems="center"
                   justifyContent="center"
                 >
-                  <box-icon color={colors.purple} type='solid' name='phone'></box-icon>
+                  <box-icon color={colors.blue} type='solid' name='phone'></box-icon>
                   <Text
                     ml="2"
                     fontSize={smallFontSize}
@@ -130,7 +130,7 @@ const ContactMe = () => {
                     alignItems="center"
                     justifyContent="center"
                   >
-                    <box-icon color={colors.purple} type='logo' name='linkedin-square'></box-icon>
+                    <box-icon color={colors.blue} type='logo' name='linkedin-square'></box-icon>
                     <Text
                     ml="2"
                     fontSize={smallFontSize}
@@ -165,7 +165,7 @@ const ContactMe = () => {
                     alignItems="center"
                     justifyContent="center"
                   >
-                    <box-icon color={colors.purple} type='logo'size="sm" name='github' ></box-icon>
+                    <box-icon color={colors.blue} type='logo'size="sm" name='github' ></box-icon>
                     <Text
                     ml="2"
                     fontSize={smallFontSize}
