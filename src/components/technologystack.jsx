@@ -21,7 +21,7 @@ const techLibrary = [
   { name: "C++", icon: 'bx bxl-c-plus-plus' },
   { name: "Python", icon: 'bx bxl-css3' },
   { name: "CSS", icon: 'bx bxl-css3' },
-  { name: "HTML5", icon: 'bx bxl-html5' },
+  { name: "HTML", icon: 'bx bxl-html5' },
   { name: "JavaScript", icon: 'bx bxl-javascript' },
   { name: "SQL", icon: 'bx bxl-check-square' },
   { name: "MATLAB", icon: 'bx bxl-check-square' },
@@ -33,8 +33,12 @@ const cadLibrary = [
 const toolsLibrary = [
   { name: "AWS", icon: 'bx bx-data' },
   { name: "Azure", icon: 'bx bx-data' },
-  { name: "Postman", icon: 'bx bx-data' },
+  { name: "Postman", icon: 'bx bx-cog' },
   { name: "Git", icon: 'bx bx-git-commit' },
+  { name: "Selenium", icon: 'bx bxs-check-square' },
+  { name: "REST", icon: 'bx bx-cog' },
+  { name: "Cosmos DB", icon: 'bx bx-data' },
+  { name: "Robot", icon: 'bx bx-bot' },
 ];
 
 // Settings for react-slick
@@ -81,7 +85,7 @@ const TechnologyStack = () => {
         </Text>
 
         {/* Sliders */}
-        <Box width="100%" >
+        <Box width="100%">
           <VStack spacing={spacing} width="100%"  alignItems="center" overflow="hidden">
             {/* First Slider */}
             <Slider {...carouselSettings} style={{ width: '100%', maxWidth: '441px' }}>

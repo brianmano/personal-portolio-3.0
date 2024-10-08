@@ -24,7 +24,7 @@ import {
 } from "./projectcomponents.jsx";
 import EMGProsthesis from "../assets/projectgrid/EMG Project.png";
 import PantryPal from "../assets/projectgrid/pantrypal.jpg";
-import Rehabilitation from "../assets/projectgrid/rehabilitation.png";
+import Rehabilitation from "../assets/projectgrid/rehabilitation-backgroundless.png";
 import "boxicons";
 import colors from "../colors.js";
 import { useNavigate } from "react-router-dom"; // Import useNavigate hook
