@@ -29,7 +29,7 @@ const App = () => {
           />
           <Route path="/projectrehabilitation" element={<ProjectPage
             projectName="Finger Rehabilitation Device"
-            projectDescription="Developed a motorized prototype to quantify recovery progress in stroke patients with hemiparesis, writing all Arduino code for motor control and force measurement, and leading the 3D printing process to ensure precise part tolerances."
+            projectDescription="Developed a motorized prototype to quantify recovery progress in stroke patients with hemiparesis, writing Arduino code for motor control and force measurement, and leading the 3D printing process to ensure precise part tolerances."
             projectTimeline="Jan 2024 - Apr 2024"
             pdfLink={rehabilitationpdf}
             />} />

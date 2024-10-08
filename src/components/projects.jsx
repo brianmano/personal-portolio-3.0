@@ -36,7 +36,7 @@ const projectData = [
     id: 1,
     name: "Finger Rehabilitation Device",
     description:
-      "Developed a motorized prototype to quantify recovery progress in stroke patients with hemiparesis, writing all Arduino code for motor control and force measurement, and leading the 3D printing process to ensure precise part tolerances.",
+      "Developed a motorized prototype to quantify recovery progress in stroke patients with hemiparesis, writing Arduino code for motor control and force measurement, and leading the 3D printing process to ensure precise part tolerances.",
     component: <Project_Rehabilitation />,
     image: Rehabilitation,
     tags: ["SolidWorks", "C++", "PrusaSlicer", "LTSpice", "Arduino"],
