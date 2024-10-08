@@ -5,7 +5,7 @@ import {
   Flex
 } from '@chakra-ui/react';
 import '../App.css';
-import brian from '../assets/brian.png';
+import connor from '../assets/connor-background-free.png';
 import colors from '../colors.js';
 import { TypeAnimation } from 'react-type-animation';
 import { color } from 'framer-motion';
@@ -46,8 +46,8 @@ const ReachOut = () => {
         <GridItem rowSpan={{ base: 1, md: 1 }} colSpan={{ base: 1, md: 1 }}>
             <Box h = {imageSizeH} w = {imageSizeW  + 10} bg={colors.blue} borderRadius={15} overflow="hidden">
               <Image
-                src={brian}
-                alt="brian"
+                src={connor}
+                alt="connor"
                 w={imageSizeW+10}
                 h={imageSizeH}
                 objectFit="cover"
