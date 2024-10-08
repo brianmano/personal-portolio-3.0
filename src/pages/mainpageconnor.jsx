@@ -2,13 +2,10 @@ import React, { useEffect, useState } from "react";
 import {
   ChakraProvider,
   Box,
-  Button,
   Grid,
   GridItem,
-  Text,
   Center,
 } from "@chakra-ui/react";
-import { ArrowRightIcon } from "@chakra-ui/icons";
 import "../App.css";
 import Experience from "../components/experience";
 import Projects from "../components/projects";
@@ -19,21 +16,7 @@ import Metrics from "../components/metrics";
 import colors from "../colors";
 import { useNavigate } from "react-router-dom";
 
-const fadeInVariants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1 },
-};
-
-const staggerContainerVariants = {
-  hidden: {},
-  visible: {
-    transition: {
-      staggerChildren: 0.3, // Adjust the delay between each child
-    },
-  },
-};
-
-const MainPageBrian = () => {
+const MainPageConnor = () => {
   const navigate = useNavigate();
   const [hasLoaded, setHasLoaded] = useState(false);
 
@@ -53,17 +36,21 @@ const MainPageBrian = () => {
       <Box width="100%" display="flex" justifyContent="center" alignItems="center">
         <Center width="100%">
           <Grid
-            h="100vh"
+            h="100vh"  // This keeps the grid height relative to the full viewport
             w="100%"
-            templateRows={{ base: "repeat(32, 50px)", md: "repeat(32, 1fr)", lg: "repeat(4, 1fr)" }}
-            templateColumns={{
-              base: "350px",
-              md: "repeat(2, 1fr)",
-              lg: "repeat(4, 1fr)",
+            templateRows={{
+              base: "repeat(8, minmax(50px, 1fr))",
+              md: "repeat(8, minmax(100px, 1fr))",
+              lg: "repeat(4, minmax(150px, 1fr))"
             }}
-            gap="4"
+            templateColumns={{
+              base: "repeat(1, 1fr)",
+              md: "repeat(2, 1fr)",
+              lg: "repeat(4, 1fr)"
+            }}
+            gap={6}
             p="5"
-            overflowY={{ base: "scroll", md: "hidden" }}
+            overflowY="auto"  // This enables vertical scrolling
             className={`page-wrapper ${hasLoaded ? "fade-in" : ""} staggered-fade-in`}
           >
             <GridItem
@@ -206,4 +193,4 @@ const MainPageBrian = () => {
   );
 };
 
-export default MainPageBrian;
+export default MainPageConnor;
