@@ -18,19 +18,13 @@ import {
 } from "@chakra-ui/react";
 import "../App.css";
 import {
-  Project_Telemetry,
-  Project_RearTub,
-  Project_CPU,
   Project_PantryPal,
-  Project_SkyJack,
-  Project_Pacemaker,
+  Project_Rehabilitation,
+  Project_EMG
 } from "./projectcomponents.jsx";
-import SCR1 from "../assets/projectgrid/sc_stance.jpg";
-import Lyriq from "../assets/projectgrid/lyriq.jpg";
+import EMGProsthesis from "../assets/projectgrid/EMG Project.png";
 import PantryPal from "../assets/projectgrid/pantrypal.jpg";
-import Skyjack from "../assets/projectgrid/skyjack.jpg";
-import Pacemaker from "../assets/projectgrid/K64F-Board.jpg";
-import Heatsink from "../assets/projectgrid/heatsink.png";
+import Rehabilitation from "../assets/projectgrid/rehabilitation.png";
 import "boxicons";
 import colors from "../colors.js";
 import { useNavigate } from "react-router-dom"; // Import useNavigate hook
@@ -40,68 +34,35 @@ import { useNavigate } from "react-router-dom"; // Import useNavigate hook
 const projectData = [
   {
     id: 1,
-    name: "Scalar Performance Race Telemetry Project",
+    name: "Finger Rehabilitation Device",
     description:
-      "Engineered and developed the software and hardware for a scalable real-time race telemetry system, including a high performing streaming processing data pipeline with containerized apps (<50ms), cloud storage, custom wiring harness (CANBus), and customizable dashboard.",
-    component: <Project_Telemetry />,
-    image: SCR1,
+      "Developed a motorized prototype to quantify recovery progress in stroke patients with hemiparesis, writing all Arduino code for motor control and force measurement, and leading the 3D printing process to ensure precise part tolerances.",
+    component: <Project_Rehabilitation />,
+    image: Rehabilitation,
     tags: ["Kafka", "CANBus", "Azure (SQL Database)", "Docker", "MQTT", "InfluxDB", "Python", "JavaScript", "HTML", "CSS", "Raspberry Pi"],
-    route: "/projecttelemetry",
+    route: "/projectrehabilitation",
     margin: "0px",
   },
   {
     id: 2,
-    name: "McMaster EcoCAR Rear Tub and Cooling System Project",
+    name: "Motorized EMG Driving Prosthesis",
     description:
-      "Redesigned and manufactured a new rear subframe and rear tub of the Cadillac Lyriq to mount the new EV Inverter and Connected Automated Vehicles components. A cooling system was engineered to reroute airflow to keep parts at ambient temperature.",
-    component: <Project_RearTub />,
-    image: Lyriq,
-    tags: ["Seimens NX", "Manufacturing", "Material Design"],
-    route: "/projectreartub",
+      "Prototyped an EMG-controlled prosthesis capable of gripping and turning a steering wheel, leading the 3D-printed mechanical design while conducting FEA to ensure stress resilience, meeting peer-reviewed standards.",
+    component: <Project_EMG />,
+    image: EMGProsthesis,
+    tags: ["SolidWorks", "C++", "PrusaSlicer", "LTSpice", "Arduino IDE"],
+    route: "/projectemg",
     margin: "-20px",
   },
   {
     id: 3,
-    name: "CPU Heatsink Design Project",
-    component: <Project_CPU />,
-    description:
-      "Designed a custom CPU Heatsink using natural convection to reduce maximum temperatures compared to a factory design from 198 C -> 132 C.",
-    image: Heatsink,
-    tags: ["Fusion360", "Thermal Analysis", "Manufacturing", "Material Design"],
-    route: "/projectcpu",
-    margin: "-20px",
-  },
-  {
-    id: 4,
-    name: "PantryPal Project",
+    name: "DeltaHacks X: PantryPal Project",
     component: <Project_PantryPal />,
     description:
-      "Developed a user-friendly website designed to simplify pantry management by allowing clients to input their details of their grocery purchases in cloud storage for access anywhere.",
+      "Developed a user-friendly website that simplifies pantry management by allowing clients to input the details of their grocery purchases in cloud storage accessible anywhere.",
     image: PantryPal,
     tags: ["JavaScript", "CSS", "HTML"],
     externalLink: "https://github.com/MenHackers/PantryPal", 
-    margin: "-20px",
-  },
-  {
-    id: 5,
-    name: "SkyJack Paint NCR Shelf Project",
-    component: <Project_SkyJack />,
-    description:
-      "Designed and engineered a new part shelf for the storage of Paint NCRs, significantly improving ergonomics, safety, and cost migigation of damaged parts.",
-    image: Skyjack,
-    tags: ["SolidWorks", "Ergonomics", "Manufacturing", "Material Design"],
-    route: "/projectskyjack",
-    margin: "-20px",
-  },
-  {
-    id: 6,
-    name: "Pacemaker Project",
-    component: <Project_Pacemaker />,
-    description:
-      "Engineered a modern pacemaker, using Simulink code logic with a user-friendly GUI, and using an NXP FRDM K64F for serial communication.",
-    image: Pacemaker,
-    tags: ["Python", "Simulink", "Serial Communication"],
-    externalLink: "https://github.com/brianmano/Pacemaker_Project", 
     margin: "-20px",
   },
 ];
@@ -130,7 +91,7 @@ const Projects = () => {
       <Grid
         h="100%"
         w="100%"
-        templateRows={{ base: "1fr", md: "repeat(6, 100%)", lg: "repeat(6, 30%)" }}
+        templateRows={{ base: "1fr", md: "repeat(3, 100%)", lg: "repeat(3, 30%)" }}
         templateColumns={{ base: "1fr", md: "repeat(1, 1fr)" }}
         gap={spacing}
         p={spacing}

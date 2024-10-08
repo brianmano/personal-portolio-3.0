@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import {
   ChakraProvider,
   Box,
-  Flex,
   Button,
   Grid,
   GridItem,
@@ -18,7 +17,6 @@ import TechnologyStack from "../components/technologystack";
 import ContactMe from "../components/contactme";
 import Metrics from "../components/metrics";
 import colors from "../colors";
-import useMediaQuery from "react-responsive";
 import { useNavigate } from "react-router-dom";
 
 const fadeInVariants = {

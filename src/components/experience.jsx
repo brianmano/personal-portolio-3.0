@@ -7,28 +7,28 @@ import colors from '../colors.js';
 // Define constants for experiences directly in the file
 const employmentExperiences = [
   {
-    role: "Telemetry Platform Developer",
-    company: "Scalar Performance Inc",
-    date: "May 2024 - Present",
-    description: "Led the software and hardware engineering of the SCR1's real-time telemetry system and cloud storage, scalable amongst thousands of vehicles.",
+    role: "Junior Application Developer",
+    company: "FirstOntario Credit Union",
+    date: "April 2024 - August 2024",
+    description: "Developed a website and automated form processes for volunteer hour certificates, saving 20+ administrative hours per employee monthly and improving coaching form accuracy."
   },
   {
-    role: "System Design and Integration (SDI) Member",
-    company: "McMaster EcoCAR EV Challenge",
-    date: "September 2023 - Present",
-    description: "Redesigned and engineered the rear subframe, rear tub, and implemented a rear cooling system. Learning to perform CFD's and suspension modelling using Altair.",
+    role: "Software Developer In Test",
+    company: "Telus Health",
+    date: "September 2023 - December 2023",
+    description: "Enhanced test automation with Python and Selenium, reducing test case failures by 15% and delivering over 2x the assigned test cases."
   },
   {
-    role: "Quality Engineer Intern",
-    company: "Linamar Corporation",
-    date: "May 2023 - August 2023",
-    description: "Implemented automated scripts reducing runtimes by 90%, and enhanced ergonomics and safety in shelf design.",
+    role: "Software Developer (ATSPMs)",
+    company: "Miovision",
+    date: "January 2023 - April 2023",
+    description: "Led the migration of thousands of customers to Miovision's identity service platform, and developed Kotlin-based services to process traffic data across cities."
   },
   {
-    role: "Civil Engineer Intern",
-    company: "Urbex Engineering Limited",
+    role: "Full Stack Developer",
+    company: "Medchart",
     date: "May 2022 - August 2022",
-    description: "Adjusted engineering drawings based on real-world conditions and managed accuracy of engineering tenders.",
+    description: "Streamlined business logic by reducing code complexity by over 75%, connected the Marble API to medical record databases, and enhanced error tracking in API call receipts."
   }
 ];
 

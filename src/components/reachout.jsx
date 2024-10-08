@@ -97,7 +97,7 @@ const ReachOut = () => {
             </Tag>
             <Tag p = {2} backgroundColor={colors.quinaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
                 <box-icon color={colors.purple} type='solid' name='book-alt'></box-icon>
-                <TagLabel>Biomedical Engineer</TagLabel>
+                <TagLabel>Biomedical Engineering</TagLabel>
             </Tag>
             <Tag p = {2} backgroundColor={colors.quinaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
                 <box-icon color={colors.purple} type='solid' name='school'></box-icon>

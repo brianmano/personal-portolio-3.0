@@ -13,15 +13,16 @@ import colors from '../colors.js';
 
 //Texts library
 const textLibrary = [
-  "Engineered a live race telemetry data pipeline for real-time CANBus data collection for 1000s of fleet cars @ Scalar Performance",
-  "Deployed an SQL Database to store and query through >6 months of historical data from race vehicles  @ Scalar Performance",
-  "Implemented a custom wiring harnesses for CANBus communication for live telemetry and vehicle data acquisition @ Scalar Performance",
-  "Redesigned a CPU Heatsink reducing maximum temperatures significantly by 34% @ McMaster EcoCAR",
-  "Redesigned the rear subfloor of the Cadillac Lyriq for electronic integration @ McMaster EcoCAR",
-  "Engineered a new cooling system for electronics in the Cadillac Lyriq, reducing ambient temperatures significantly @ McMaster EcoCAR",
-  "Developing an accurate suspension model for force extraction under driving scenarios @ McMaster EcoCAR",
-  "Performing component and system-level Computation Fluid Dynamics (CFD) for improved aerodynamics @ McMaster EcoCAR"
+  "Developed a user-friendly website enabling employees to access volunteer hour certificates and streamlined form management for the Community Impact team @ FirstOntario Credit Union",
+  "Automated the volunteer certificate distribution process, saving over 20 administrative hours per employee monthly @ FirstOntario Credit Union",
+  "Streamlined coaching form management by automating form transfers for staff changes, enhancing data accuracy and efficiency @ FirstOntario Credit Union",
+  "Implemented automated test cases with Python and Selenium, doubling output and reducing test case failures by 15% @ Telus Health",
+  "Led the migration of thousands of customers and staff to Miovision's identity service platform, improving system scalability @ Miovision",
+  "Developed Kotlin-based decoder services to extract traffic data and populate metrics in Traffop, scaling to cities across Canada @ Miovision",
+  "Streamlined user authorization logic using asynchronous C# methods, reducing code complexity by over 75% @ Medchart",
+  "Connected Marble API to medical record databases weeks ahead of schedule, improving efficiency in accessing records @ Medchart"
 ];
+
 
 // Settings for react-slick
 const carouselSettings = {
@@ -55,7 +56,7 @@ const Metrics = () => {
         p={4} // Add padding from the top
       >
         <Text className="h1" fontSize={titleFontSize} color={colors.primarywhite} mb = {5}>
-        What I've Been Up to Lately...
+        Work I've Done Lately
         </Text>
         <VStack>
         <Slider {...carouselSettings} style={{ height: '100%', width: '100%' }}>

@@ -34,7 +34,6 @@ const toolsLibrary = [
   { name: "AWS", icon: 'bx bx-data' },
   { name: "Azure", icon: 'bx bx-data' },
   { name: "Postman", icon: 'bx bx-data' },
-  { name: "Docker", icon: 'bx bx-data' },
   { name: "Git", icon: 'bx bx-git-commit' },
 ];
 
