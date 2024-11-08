@@ -85,7 +85,7 @@ const ReachOut = () => {
                   wrapper="span"
                   speed={25}
                   className="h1"
-                  style={{ fontSize: {textFontSize}, color: '#f58229', display: 'inline-block' }}
+                  style={{ fontSize: {textFontSize}, color: '#E21B4D', display: 'inline-block' }}
                   repeat={Infinity}
                 />
               </HStack>
