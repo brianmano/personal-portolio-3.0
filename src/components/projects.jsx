@@ -138,7 +138,7 @@ const Projects = () => {
         borderRadius={15}
         transition="all 0.3s ease"
         className="custom-scrollbar"
-        maskedelement="linear-gradient(rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%)"
+        maskedelement="linear-gradient(rgb(8,15,32) 50%, rgb(8,15,32) 100%)"
       >
         {projectData.map((project) => (
           <GridItem

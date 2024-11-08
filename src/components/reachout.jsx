@@ -56,9 +56,9 @@ const ReachOut = () => {
         </GridItem>
         <GridItem rowSpan={{ base: 1, md: 1 }} colSpan={{ base: 1, md: 3 }} >
             <VStack h="100%" w="100%" bg={colors.secondaryblack} borderRadius={15} overflow="hidden" p="3" align="left" spacing={1}>
-                <Tag backgroundColor={colors.tertiaryblack} textColor={colors.primarywhite} w="55%">
-                  <TagLeftIcon as={SunIcon} textColor="orange"/>
-                  <TagLabel fontSize = {internFontSize}>Looking for Summer 2025 Interships</TagLabel>
+                <Tag backgroundColor={colors.tertiaryblack} textColor="#FFC906" w="55%">
+                  <TagLeftIcon as={SunIcon} textColor="#FFC906"/>
+                  <TagLabel fontSize = {internFontSize}>Looking for Summer 2025 Internships</TagLabel>
                 </Tag>
 
 
@@ -119,7 +119,7 @@ const ReachOut = () => {
                 onClick={() => window.open(resume, "_blank")}
                 height="auto"
                 width="100%"
-                bgColor="rgba(35,35,35,255)"
+                bgColor="rgba(8,15,32,255)"
                 borderRadius="10px"
                 display="flex"
                 alignItems="center"
@@ -149,7 +149,7 @@ const ReachOut = () => {
                 onClick={() => window.open(linkedin, "_blank")}
                 height="auto"
                 width="100%"
-                bgColor="rgba(35,35,35,255)"
+                bgColor="rgba(8,15,32,255)"
                 borderRadius="10px"
                 display="flex"
                 alignItems="center"
@@ -179,7 +179,7 @@ const ReachOut = () => {
                 onClick={() => window.open(emailLink, "_self")}
                 height="auto"
                 width="100%"
-                bgColor="rgba(35,35,35,255)"
+                bgColor="rgba(8,15,32,255)"
                 borderRadius="10px"
                 display="flex"
                 alignItems="center"
@@ -209,7 +209,7 @@ const ReachOut = () => {
                 onClick={() => window.open(github, "_blank")}
                 height="auto"
                 width="100%"
-                bgColor="rgba(35,35,35,255)"
+                bgColor="rgba(8,15,32,255)"
                 borderRadius="10px"
                 display="flex"
                 alignItems="center"

@@ -85,7 +85,7 @@ const VerticalCarousel = ({ items }) => {
                       >
                         <Wrap spacing={spacing} mx={4} my={2}>
                           <WrapItem
-                            bgColor="rgba(35,35,35,255)"
+                            bgColor="rgba(8,15,32,255)"
                             borderRadius="10px"
                             display="flex"
                             height="100%"
