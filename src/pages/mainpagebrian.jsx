@@ -73,7 +73,7 @@ const MainPageBrian = () => {
               colSpan={{ base: 1, md: 2, lg: 2}}
               borderWidth="1px"
               borderRadius="15"
-              borderColor="#2f2f2f"
+              borderColor="#121F45"
             >
               <ReachOut />
             </GridItem>
@@ -84,7 +84,7 @@ const MainPageBrian = () => {
               backgroundColor={colors.secondaryblack}
               borderRadius="15"
               borderWidth="1px"
-              borderColor="#2f2f2f"
+              borderColor="#121F45"
             >
               <Center position="relative" h="100%">
                 <Box
@@ -109,7 +109,7 @@ const MainPageBrian = () => {
               backgroundColor={colors.secondaryblack}
               borderRadius="15"
               borderWidth="1px"
-              borderColor="#2f2f2f"
+              borderColor="#121F45"
             >
               <Center position="relative" h="100%" w="100%" overflow="hidden">
                 {" "}
@@ -135,7 +135,7 @@ const MainPageBrian = () => {
               backgroundColor={colors.secondaryblack}
               borderRadius="15"
               borderWidth="1px"
-              borderColor="#2f2f2f"
+              borderColor="#121F45"
             >
               <Center position="relative" h="100%" w="100%">
                 <TechnologyStack />
@@ -158,7 +158,7 @@ const MainPageBrian = () => {
               backgroundColor={colors.secondaryblack}
               borderRadius="15"
               borderWidth="1px"
-              borderColor="#2f2f2f"
+              borderColor="#121F45"
             >
               <Center position="relative" h="100%" w="100%">
                 {" "}
@@ -183,7 +183,7 @@ const MainPageBrian = () => {
               backgroundColor={colors.secondaryblack}
               borderRadius="15"
               borderWidth="1px"
-              borderColor="#2f2f2f"
+              borderColor="#121F45"
             >
               <Center position="relative" h="100%" w="100%">
                 {" "}

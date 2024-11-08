@@ -118,16 +118,16 @@ body {
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: #191919; /* Color of the track (part the scrollbar slides within) */
+  background: #080f20; /* Color of the track (part the scrollbar slides within) */
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: #4e4e4e; /* Color of the draggable part of the scrollbar */
+  background: #FFC906; /* Color of the draggable part of the scrollbar */
   border-radius: 10px; /* Roundness of the scrollbar */
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Color when hovering over the scrollbar */
+  background: #a38000; /* Color when hovering over the scrollbar */
 }
 
 .tag-container {
@@ -147,7 +147,7 @@ body {
 
 /* Maintain size while changing background color */
 .carousel-item:hover .carousel-item-content {
-  background-color: #303030; /* Grey color with some transparency */
+  background-color: #e6b400; /* Grey color with some transparency */
 }
 
 /* Rotate the arrow 45 degrees when hovering over the carousel item */

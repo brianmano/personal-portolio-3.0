@@ -130,7 +130,7 @@ const VerticalCarousel = ({ items }) => {
                       </Box>
                     </PopoverTrigger>
                     <PopoverContent
-                      bgColor={colors.tertiaryblack}
+                      bgColor={colors.secondaryblack}
                       color="white"
                       borderRadius="md"
                       p={3}

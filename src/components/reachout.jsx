@@ -95,19 +95,19 @@ const ReachOut = () => {
 
         <GridItem h="100%" w="100%" rowSpan={{ base: 2, md: 7 }} colSpan={{ base: 1, md: 4 }} backgroundColor={colors.tertiaryblack} borderRadius={10}>
           <HStack spacing={spacing} p={spacing} flexWrap="wrap">  
-            <Tag p = {2} backgroundColor={colors.quinaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
+            <Tag p = {2} backgroundColor={colors.secondaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
                 <box-icon color={colors.purple} name='book-alt' type='solid' size="sm" ></box-icon>
                 <TagLabel>Bachelors of Engineering</TagLabel>
             </Tag>
-            <Tag p = {2} backgroundColor={colors.quinaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
+            <Tag p = {2} backgroundColor={colors.secondaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
                 <box-icon color={colors.purple} type='solid' name='book-alt'></box-icon>
                 <TagLabel>Mechatronics and Biomedical Engineer</TagLabel>
             </Tag>
-            <Tag p = {2} backgroundColor={colors.quinaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
+            <Tag p = {2} backgroundColor={colors.secondaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
                 <box-icon color={colors.purple} type='solid' name='school'></box-icon>
                 <TagLabel>McMaster University</TagLabel>
             </Tag>
-            <Tag p = {2} backgroundColor={colors.quinaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
+            <Tag p = {2} backgroundColor={colors.secondaryblack} textColor={colors.secondarywhite} fontSize={buttonFontSize}>
                 <box-icon color={colors.purple} name='current-location'></box-icon>
                 <TagLabel>Hamilton, ON</TagLabel>
             </Tag>
