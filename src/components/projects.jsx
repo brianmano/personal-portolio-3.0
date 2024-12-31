@@ -29,7 +29,7 @@ import SCR1 from "../assets/projectgrid/sc_stance.jpg";
 import Lyriq from "../assets/projectgrid/lyriq.jpg";
 import PantryPal from "../assets/projectgrid/pantrypal.jpg";
 import Skyjack from "../assets/projectgrid/skyjack.jpg";
-import Pacemaker from "../assets/projectgrid/K64F-Board.jpg";
+import Pacemaker from "../assets/projectgrid/pacemaker.jpg";
 import Heatsink from "../assets/projectgrid/heatsink.png";
 import "boxicons";
 import colors from "../colors.js";
