@@ -75,11 +75,17 @@ const ReachOut = () => {
                     3000,
                     'Software Developer',
                     3000,
+                    'Vehicle Dynamics Team Member',
+                    3000,
+                    'Aerodynamics Team Member',
+                    3000,
                     'Pitcrew Member',
+                    3000,
+                    'CFD Specialist',
                     3000,
                     'System Design and Integration Team Member',
                     3000,
-                    'Vehicle Dynamics Team Member',
+                    'Car Enthusiast',
                     3000,
                   ]}
                   wrapper="span"
