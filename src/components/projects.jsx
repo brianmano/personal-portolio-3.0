@@ -27,10 +27,11 @@ import {
 } from "./projectcomponents.jsx";
 import SCR1 from "../assets/projectgrid/sc_stance.jpg";
 import Lyriq from "../assets/projectgrid/lyriq.jpg";
-import PantryPal from "../assets/projectgrid/pantrypal.jpg";
+import PantryPal from "../assets/projectgrid/pantrypal.png";
 import Skyjack from "../assets/projectgrid/skyjack.jpg";
 import Pacemaker from "../assets/projectgrid/pacemaker.jpg";
 import Heatsink from "../assets/projectgrid/heatsink.png";
+import leetbuddy from "../assets/projectgrid/leetbuddy.png"
 import "boxicons";
 import colors from "../colors.js";
 import { useNavigate } from "react-router-dom"; // Import useNavigate hook
@@ -42,26 +43,37 @@ const projectData = [
     id: 1,
     name: "Scalar Performance Race Telemetry Project",
     description:
-      "Engineered and developed the software and hardware for a scalable real-time race telemetry system, including a high performing streaming processing data pipeline with containerized apps (<50ms), cloud storage, custom wiring harness (CANBus), and customizable dashboard.",
+      "Developed the software and hardware for a scalable real-time race telemetry platform, including a F1 capable streaming processing data pipeline with containerized apps (<50ms), cloud storage, customizable dashboard and custom wiring harness (CANBus).",
     component: <Project_Telemetry />,
     image: SCR1,
-    tags: ["Kafka", "Kubernetes", "CANBus", "Azure (SQL)", "Docker", "MQTT", "InfluxDB", "Python", "JavaScript", "HTML", "CSS", "Raspberry Pi"],
+    tags: ["Kafka", "Kubernetes", "CANBus", "Python", "Azure (SQL)", "Docker", "MQTT", "Quix", "JavaScript", "HTML", "CSS", "Raspberry Pi"],
     route: "/projecttelemetry",
     margin: "0px",
   },
   {
     id: 2,
-    name: "McMaster EcoCAR Rear Tub and Cooling System Project",
+    name: "McMaster EcoCAR Internal Thermal System and Rear Tub Project",
     description:
-      "Redesigned and manufactured a new rear subframe and rear tub of the Cadillac Lyriq to mount the new EV Inverter and Connected Automated Vehicles components. A cooling system was engineered to reroute airflow to keep parts at ambient temperature.",
+      "Engineered and integrated a new rear tub for the Cadillac Lyriq to accomodate our new EV Inverter and computer modules, and an internal thermal system, significantly decreasing the ambient temperature of computer modules. ",
     component: <Project_RearTub />,
     image: Lyriq,
-    tags: ["Seimens NX", "Manufacturing", "Material Design", "Thermodynamics"],
+    tags: ["Siemens NX", "FEA", "Thermodynamics", "Thermo-fluid Analysis"],
     route: "/projectreartub",
     margin: "-20px",
   },
   {
     id: 3,
+    name: "LeetBuddy (DeltaHacks XI)",
+    component: <Project_PantryPal />,
+    description:
+      "Developed a Google Chrome Extension leveraging Generative AI to provide real-time, context-aware support for LeetCode problems, integrating user chats, problem context, and user whiteboard image processing to streamline and personalize software interview preparation and learning.",
+    image: leetbuddy,
+    tags: ["React", "Tailwind", "Express.js", "Generative AI (Cohere + Google Gemini API)", "Redis", "Docker"],
+    externalLink: "https://devpost.com/software/leetbuddy", 
+    margin: "-20px",
+  },
+  {
+    id: 4,
     name: "CPU Heatsink Design Project",
     component: <Project_CPU />,
     description:
@@ -72,18 +84,29 @@ const projectData = [
     margin: "-20px",
   },
   {
-    id: 4,
-    name: "PantryPal Project",
-    component: <Project_PantryPal />,
+    id: 6,
+    name: "Pacemaker Project",
+    component: <Project_Pacemaker />,
     description:
-      "Developed a user-friendly website designed to simplify pantry management by allowing clients to input their details of their grocery purchases in cloud storage for access anywhere.",
-    image: PantryPal,
-    tags: ["JavaScript", "CSS", "HTML"],
-    externalLink: "https://github.com/MenHackers/PantryPal", 
+      "Engineered a modern pacemaker, using Simulink code logic with a user-friendly GUI, and using an NXP FRDM K64F for serial communication.",
+    image: Pacemaker,
+    tags: ["Python", "Simulink", "Serial Communication", "NXP FRDM K64F Board"],
+    externalLink: "https://github.com/brianmano/Pacemaker_Project", 
     margin: "-20px",
   },
   {
     id: 5,
+    name: "PantryPal (DeltaHacks X)",
+    component: <Project_PantryPal />,
+    description:
+      "Developed a user-friendly website designed to simplify pantry management by allowing clients to input their details of their grocery purchases in cloud storage for access anywhere.",
+    image: PantryPal,
+    tags: ["React", "CSS", "HTML"],
+    externalLink: "https://github.com/MenHackers/PantryPal", 
+    margin: "-20px",
+  },
+  {
+    id: 7,
     name: "SkyJack Paint NCR Shelf Project",
     component: <Project_SkyJack />,
     description:
@@ -93,17 +116,7 @@ const projectData = [
     route: "/projectskyjack",
     margin: "-20px",
   },
-  {
-    id: 6,
-    name: "Pacemaker Project",
-    component: <Project_Pacemaker />,
-    description:
-      "Engineered a modern pacemaker, using Simulink code logic with a user-friendly GUI, and using an NXP FRDM K64F for serial communication.",
-    image: Pacemaker,
-    tags: ["Python", "Simulink", "Serial Communication"],
-    externalLink: "https://github.com/brianmano/Pacemaker_Project", 
-    margin: "-20px",
-  },
+
 ];
 
 const Projects = () => {
@@ -130,7 +143,7 @@ const Projects = () => {
       <Grid
         h="100%"
         w="100%"
-        templateRows={{ base: "1fr", md: "repeat(6, 100%)", lg: "repeat(6, 30%)" }}
+        templateRows={{ base: "1fr", md: "repeat(7, 100%)", lg: "repeat(7, 30%)" }}
         templateColumns={{ base: "1fr", md: "repeat(1, 1fr)" }}
         gap={spacing}
         p={spacing}

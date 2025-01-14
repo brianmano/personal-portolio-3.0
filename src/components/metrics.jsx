@@ -13,14 +13,14 @@ import colors from '../colors.js';
 
 //Texts library
 const textLibrary = [
-  "Engineered a live race telemetry data pipeline for real-time CANBus data collection for 1000s of fleet cars @ Scalar Performance",
-  "Deployed an SQL Database to store and query through >6 months of historical data from race vehicles  @ Scalar Performance",
-  "Implemented a custom wiring harnesses for CANBus communication for live telemetry and vehicle data acquisition @ Scalar Performance",
+  "Engineered a real-time race telemetry platform for processing CANBus data collection for 1000s of fleet race cars @ Scalar Performance",
+  "Performing and analyzing system and component-level CFDs @ McMaster EcoCAR",
+  "Designing and manufacturing new aerodynamic components (rear wing, splitters, etc) @ McMaster EcoCAR",
+  "Developed a Google Chrome extension LeetCode AI Assistant, supporting tailored help for 3500+ problems  @ DeltaHacks XI",
   "Redesigned a CPU Heatsink reducing maximum temperatures significantly by 34% @ McMaster EcoCAR",
-  "Redesigned the rear subfloor of the Cadillac Lyriq for electronic integration @ McMaster EcoCAR",
-  "Engineered a new cooling system for electronics in the Cadillac Lyriq, reducing ambient temperatures significantly @ McMaster EcoCAR",
+  "Redesigned the rear subfloor of the Cadillac Lyriq for computer module and inverter integration @ McMaster EcoCAR",
+  "Engineered a new internal thermal system in the Cadillac Lyriq, reducing ambient temperatures significantly @ McMaster EcoCAR",
   "Developing an accurate suspension model for force extraction under driving scenarios @ McMaster EcoCAR",
-  "Performing component and system-level Computation Fluid Dynamics (CFD) for improved aerodynamics @ McMaster EcoCAR"
 ];
 
 // Settings for react-slick

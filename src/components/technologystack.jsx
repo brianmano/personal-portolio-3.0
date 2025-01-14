@@ -28,7 +28,8 @@ const techLibrary = [
   { name: "Matlab", icon: 'bx bxl-check-square' },
 ];
 const cadLibrary = [
-  { name: "Seimens NX", icon: 'bx bxs-check-square' },
+  { name: "Siemens NX", icon: 'bx bxs-check-square' },
+  { name: "CFD", icon: 'bx bxs-check-square' },
   { name: "SolidWorks", icon: 'bx bxs-check-square' },
   { name: "Fusion360", icon: 'bx bxs-check-square' },
   { name: "Inventor", icon: 'bx bxs-check-square'},
@@ -38,10 +39,13 @@ const cadLibrary = [
 ];
 const toolsLibrary = [
   { name: "AWS", icon: 'bx bx-data' },
+  { name: "Azure", icon: 'bx bx-data' },
   { name: "Kafka", icon: 'bx bx-data' },
   { name: "Azure", icon: 'bx bx-data' },
   { name: "InfluxDB", icon: 'bx bx-data' },
   { name: "Docker", icon: 'bx bx-data' },
+  { name: "Kubernetes", icon: 'bx bx-data' },
+  { name: "Generative AI", icon: 'bx bx-data' },
   { name: "Git", icon: 'bx bx-git-commit' },
   { name: "Linux", icon: 'bx bx-terminal' },
   { name: "CANBus", icon: 'bx bx-car' },
