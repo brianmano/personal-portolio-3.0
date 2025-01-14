@@ -49,6 +49,7 @@ const toolsLibrary = [
   { name: "Git", icon: 'bx bx-git-commit' },
   { name: "Linux", icon: 'bx bx-terminal' },
   { name: "CANBus", icon: 'bx bx-car' },
+  { name: ".NET", icon: 'bx bx-data' },
 ];
 
 // Settings for react-slick
@@ -72,6 +73,7 @@ const TechnologyStack = () => {
   const textFontSize = useBreakpointValue({ base: '12px', md: '8px', lg: '16px' });
   const maxWidth = useBreakpointValue({ base: '200px', md: '300px', lg: '441px' });
   const spacing = useBreakpointValue({ base: 4, md: 3, lg: 4 });
+  const carouselWidth = useBreakpointValue({ base: "80%", md: "85%", lg: "100%" });
 
   return (
     <ChakraProvider width="100%">
@@ -95,7 +97,7 @@ const TechnologyStack = () => {
         </Text>
 
         {/* Sliders */}
-        <Box width="100%" >
+        <Box width="100%" p = {5}>
           <VStack spacing={spacing} width="100%"  alignItems="center" overflow="hidden">
             {/* First Slider */}
             <Slider {...carouselSettings} style={{ width: '100%', maxWidth: '441px' }}>

@@ -44,6 +44,7 @@ const VerticalCarousel = ({ items }) => {
   // Responsive breakpoints for height and number of slides
   const carouselHeight = useBreakpointValue({ base: '300px', md: '500px', lg: '600px' });
   const slidesToShow = useBreakpointValue({ base: 3, md: 2, lg: 4 });
+  const carouselWidth = useBreakpointValue({ base: "80%", md: "85%", lg: "100%" });
 
   const settings = {
     vertical: true,
@@ -58,13 +59,13 @@ const VerticalCarousel = ({ items }) => {
     dots: false,  
   };
 
-  const roleFontSize = useBreakpointValue({ base: '16px', md: '18px', lg: '20px' });
-  const companyFontSize = useBreakpointValue({ base: '14px', md: '16px', lg: '18px' });
-  const dateFontSize = useBreakpointValue({ base: '12px', md: '14px', lg: '16px' });
-  const spacing = useBreakpointValue({ base: 1, md: 3, lg: 3 });
+  const roleFontSize = useBreakpointValue({ base: '14px', md: '18px', lg: '20px' });
+  const companyFontSize = useBreakpointValue({ base: '12px', md: '16px', lg: '18px' });
+  const dateFontSize = useBreakpointValue({ base: '10px', md: '14px', lg: '16px' });
+  const spacing = useBreakpointValue({ base: 2, md: 3, lg: 3 });
 
   return (
-    <Box height={carouselHeight} width="100%" overflow="hidden"> {/* Adjust height for responsiveness */}
+    <Box height={carouselHeight} width={carouselWidth} overflow="hidden"> {/* Adjust height for responsiveness */}
       <Slider
         {...settings}
         onMouseEnter={() => setAutoplay(false)} // Pause autoplay on hover

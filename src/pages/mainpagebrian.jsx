@@ -79,7 +79,7 @@ const MainPageBrian = () => {
             </GridItem>
 
             <GridItem
-              rowSpan={{ base: 20, md: 12, lg: 4  }}
+              rowSpan={{ base: 18, md: 12, lg: 4  }}
               colSpan={{ base: 1, md: 2, lg: 2  }}
               backgroundColor={colors.secondaryblack}
               borderRadius="15"
