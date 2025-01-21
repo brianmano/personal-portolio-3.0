@@ -44,7 +44,7 @@ const ReachOut = () => {
         transition="all 0.3s ease" 
       >
         <GridItem rowSpan={{ base: 1, md: 1 }} colSpan={{ base: 1, md: 1 }}>
-            <Box h = {imageSizeH} w = {imageSizeW  + 10} bg={colors.purple} borderRadius={15} overflow="hidden">
+            <Box h = {imageSizeH} w = {imageSizeW  + 10} bg={"#cc0000"} borderRadius={15} overflow="hidden">
               <Image
                 src={brian}
                 alt="brian"
@@ -91,7 +91,7 @@ const ReachOut = () => {
                   wrapper="span"
                   speed={25}
                   className="h1"
-                  style={{ fontSize: {textFontSize}, color: '#E21B4D', display: 'inline-block' }}
+                  style={{ fontSize: {textFontSize}, color: '#ff3333', display: 'inline-block' }}
                   repeat={Infinity}
                 />
               </HStack>
@@ -125,7 +125,7 @@ const ReachOut = () => {
                 onClick={() => window.open(resume, "_blank")}
                 height="auto"
                 width="100%"
-                bgColor="rgba(8,15,32,255)"
+                bgColor="#242424"
                 borderRadius="10px"
                 display="flex"
                 alignItems="center"
@@ -155,7 +155,7 @@ const ReachOut = () => {
                 onClick={() => window.open(linkedin, "_blank")}
                 height="auto"
                 width="100%"
-                bgColor="rgba(8,15,32,255)"
+                bgColor="#242424"
                 borderRadius="10px"
                 display="flex"
                 alignItems="center"
@@ -185,7 +185,7 @@ const ReachOut = () => {
                 onClick={() => window.open(emailLink, "_self")}
                 height="auto"
                 width="100%"
-                bgColor="rgba(8,15,32,255)"
+                bgColor="#242424"
                 borderRadius="10px"
                 display="flex"
                 alignItems="center"
@@ -215,7 +215,7 @@ const ReachOut = () => {
                 onClick={() => window.open(github, "_blank")}
                 height="auto"
                 width="100%"
-                bgColor="rgba(8,15,32,255)"
+                bgColor="#242424"
                 borderRadius="10px"
                 display="flex"
                 alignItems="center"

@@ -107,7 +107,7 @@ const TechnologyStack = () => {
                   spacing = '10px'
                 >
                   <WrapItem
-                    bgColor="rgba(8,15,32,255)"
+                    bgColor="#242424"
                     borderRadius="10px"
                     display="flex"
                     alignItems="center"
@@ -143,7 +143,7 @@ const TechnologyStack = () => {
                   spacing = '10px'
                 >
                   <WrapItem
-                    bgColor="rgba(8,15,32,255)"
+                    bgColor="#242424"
                     borderRadius="10px"
                     display="flex"
                     alignItems="center"
@@ -179,7 +179,7 @@ const TechnologyStack = () => {
                   spacing = '10px'
                 >
                   <WrapItem
-                    bgColor="rgba(8,15,32,255)"
+                    bgColor="#242424"
                     borderRadius="10px"
                     display="flex"
                     alignItems="center"
