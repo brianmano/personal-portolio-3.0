@@ -7,16 +7,22 @@ import colors from '../colors.js';
 // Define constants for experiences directly in the file
 const employmentExperiences = [
   {
+    role: "Aerodynamics Design Engineer Intern",
+    company: "Oilstainlab",
+    date: "May 2025 - Present",
+    description: "Designing and validating underbody aerodynamic changes to the HF-11, conducting CFD studies.",
+  },
+  {
     role: "Telemetry Platform Developer",
     company: "Scalar Performance Inc",
-    date: "May 2024 - Present",
+    date: "May 2024 - September 2024",
     description: "Led the software and hardware engineering of an F1 capable real-time telemetry platform and cloud storage, scalable amongst thousands of vehicles.",
   },
   {
-    role: "Vehicle Dynamics & Aerodynamics Team Member",
+    role: "Aerodynamics and Vehicle Dynamics Team Member",
     company: "McMaster EcoCAR EV Challenge",
     date: "September 2024 - Present",
-    description: "Performing component and system-level CFDs, and designing new aerodynamic parts to maximize driving endurance",
+    description: "Performing component and system-level CFDs, and designing new aerodynamic parts to maximize driving endurance.",
   },
   {
     role: "Quality Engineer Intern",

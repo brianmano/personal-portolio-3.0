@@ -29,19 +29,18 @@ const techLibrary = [
 ];
 const cadLibrary = [
   { name: "Siemens NX", icon: 'bx bxs-check-square' },
-  { name: "CFD", icon: 'bx bxs-check-square' },
+  { name: "Ansys Fluent", icon: 'bx bxs-check-square' },
   { name: "SolidWorks", icon: 'bx bxs-check-square' },
   { name: "Fusion360", icon: 'bx bxs-check-square' },
   { name: "Inventor", icon: 'bx bxs-check-square'},
   { name: "AutoCAD", icon: 'bx bxs-check-square' },
-  { name: "Altair Hypermesh", icon: 'bx bxs-check-square' },
+  { name: "Altair Hypermesh CFD", icon: 'bx bxs-check-square' },
   { name: "Altair MotionSolve", icon: 'bx bxs-check-square'},
 ];
 const toolsLibrary = [
   { name: "AWS", icon: 'bx bx-data' },
   { name: "Azure", icon: 'bx bx-data' },
   { name: "Kafka", icon: 'bx bx-data' },
-  { name: "Azure", icon: 'bx bx-data' },
   { name: "InfluxDB", icon: 'bx bx-data' },
   { name: "Docker", icon: 'bx bx-data' },
   { name: "Kubernetes", icon: 'bx bx-data' },

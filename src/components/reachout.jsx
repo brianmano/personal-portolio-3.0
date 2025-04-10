@@ -5,7 +5,7 @@ import {
   Flex
 } from '@chakra-ui/react';
 import '../App.css';
-import brian from '../assets/brian.png';
+import brian from '../assets/image 2.png';
 import colors from '../colors.js';
 import { TypeAnimation } from 'react-type-animation';
 import { color } from 'framer-motion';
@@ -58,7 +58,7 @@ const ReachOut = () => {
             <VStack h="100%" w="100%" bg={colors.secondaryblack} borderRadius={15} overflow="hidden" p="3" align="left" spacing={1}>
                 <Tag backgroundColor={colors.tertiaryblack} textColor="#FFC906" w="55%">
                   <TagLeftIcon as={SunIcon} textColor="#FFC906"/>
-                  <TagLabel fontSize = {internFontSize}>Looking for Summer 2025 Internships</TagLabel>
+                  <TagLabel fontSize = {internFontSize}>Highly motivated to break into motorsport.</TagLabel>
                 </Tag>
 
 
@@ -73,11 +73,11 @@ const ReachOut = () => {
                   sequence={[
                     'Race Telemetry Developer',
                     3000,
+                    'Aerodynamics Team Member',
+                    3000,
                     'Software Developer',
                     3000,
                     'Vehicle Dynamics Team Member',
-                    3000,
-                    'Aerodynamics Team Member',
                     3000,
                     'Pitcrew Member',
                     3000,

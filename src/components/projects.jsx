@@ -68,7 +68,7 @@ const projectData = [
     description:
       "Developed a Google Chrome Extension leveraging Generative AI to provide real-time, context-aware support for LeetCode problems, integrating user chats, problem context, and user whiteboard image processing to streamline and personalize software interview preparation and learning.",
     image: leetbuddy,
-    tags: ["React", "Tailwind", "Express.js", "Generative AI (Cohere + Google Gemini API)", "Redis", "Docker"],
+    tags: ["React", "Tailwind", "Express.js", "Generative AI", "Redis", "Docker"],
     externalLink: "https://devpost.com/software/leetbuddy", 
     margin: "-20px",
   },
@@ -101,7 +101,7 @@ const projectData = [
     description:
       "Developed a user-friendly website designed to simplify pantry management by allowing clients to input their details of their grocery purchases in cloud storage for access anywhere.",
     image: PantryPal,
-    tags: ["React", "CSS", "HTML"],
+    tags: ["ReactJS", "CSS", "HTML"],
     externalLink: "https://github.com/MenHackers/PantryPal", 
     margin: "-20px",
   },
